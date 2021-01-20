@@ -30,10 +30,10 @@ app.post("/",function(req,res){
     };
 
     const jsonData=JSON.stringify(data);
-    const url="https://us7.api.mailchimp.com/3.0/lists/326b7d836d"
+    const url="https://usX.api.mailchimp.com/3.0/lists/{listKey}"
     const options={
       method:"POST",
-      auth:"saniya:c4fc47cc398ce3fd85735c878cc6af09-us7"
+      auth:"{name}:{api-key}"
     }
     const request=https.request(url,options,function(response){
       if(response.statusCode===200){
