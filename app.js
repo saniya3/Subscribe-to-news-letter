@@ -54,5 +54,3 @@ app.listen(process.env.PORT || 3000,function(){
   console.log("server is running");
 })
 
-//c4fc47cc398ce3fd85735c878cc6af09-us7
-//326b7d836d(list)
